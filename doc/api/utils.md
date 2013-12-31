@@ -6,19 +6,20 @@
 
 ### Methods
 
-#### utils.getHttpPorxy( hostname )
+#### utils.getHttpProxy( hostname )
 <p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Get the system's http proxy</p>
 
 
 <hr>
 
 #### utils.isRelativeURI(uri)
-<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Is a relative URI? </p>
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Is a relative URI?</p>
 
 <p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Example:</b></p>
 ```js
  utils.isRelativeURI("../path/to"); // => return true
  utils.isRelativeURI("path/to"); // => return true
+ utils.isRelativeURI("#id"); // => return false
  utils.isRelativeURI("http://www.qq.com"); // => return false
  utils.isRelativeURI("/relative/to/root"); // => return false
  utils.isRelativeURI("//without/protocol"); // => return false

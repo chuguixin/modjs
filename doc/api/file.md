@@ -46,8 +46,8 @@
 
 <hr>
 
-#### file.isDirFormat(filepath)
-<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Is dir format</p>
+#### file.isDirname(filepath)
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Is dir format name</p>
 
 
 <hr>
@@ -71,7 +71,7 @@
 <hr>
 
 #### file.listdir(dir, callback)
-<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> List directories within a directory. Filters out regular files andsubversion .svn directory (if any).</p>
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> List directories within a directory.</p>
 
 
 <hr>

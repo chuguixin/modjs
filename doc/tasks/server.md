@@ -17,7 +17,7 @@ $ mod server [options]
 
 #### port
 
-<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Default:</b> <code>80</code></p>
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Default:</b> <code>3000</code></p>
 <p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Server port</p>
 <hr>
 
@@ -43,6 +43,18 @@ $ mod server [options]
 
 
 <p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Files be watched and reloaded</p>
+<hr>
+
+#### console
+
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Default:</b> <code>false</code></p>
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Enable remote logging service</p>
+<hr>
+
+#### proxies
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Type:</b> <code>array</code></p>
+
+<p> <b>&nbsp;&nbsp;&nbsp;&nbsp;Describe:</b> Enable request proxy</p>
 <hr>
 
 #### open
